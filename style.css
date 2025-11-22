@@ -1,0 +1,221 @@
+:root {
+    --bg-color: #f4f4f9;
+    --text-color: #333;
+    --header-color: #333;
+    --primary-color: #007BFF;
+    --primary-color-darker: #0056b3;
+
+    --card-bg: white;
+    --card-border: #ddd;
+    --card-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    --card-title-color: var(--primary-color-darker);
+
+    --input-bg: white;
+    --input-border: #ddd;
+    --input-text: #333;
+
+    --button-bg: #fff;
+    --button-text: var(--primary-color);
+    --button-border: var(--primary-color);
+    --button-hover-bg: #e7f3ff;
+
+    --button-active-bg: var(--primary-color);
+    --button-active-text: #fff;
+
+    --toggle-border: #ccc;
+    --toggle-bg: none;
+
+    --gradient-start: #00d2ff;
+    --gradient-end: #9d00ff;
+}
+
+/* Animação para desenhar o logo */
+@keyframes draw {
+    from { stroke-dashoffset: 200; }
+    to { stroke-dashoffset: 0; }
+}
+
+body { font-family: 'Roboto', sans-serif; line-height: 1.6; padding: 20px; background-color: var(--bg-color); color: var(--text-color); transition: background-color 0.3s ease, color 0.3s ease; }
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-svg path {
+    /* Define o comprimento do traço e do espaço para criar o efeito de desenho */
+    stroke-dasharray: 250; 
+    stroke-dashoffset: 250;
+    animation: draw 2s ease-out 0.5s forwards; /* Adiciona um pequeno delay para a animação começar */
+}
+
+.logo-svg .logo-dot {
+    fill: var(--header-color);
+    transition: fill 0.3s ease;
+}
+h1 { font-family: 'Merriweather', serif; font-size: 3.2em; color: var(--header-color); text-align: center; margin: 0; transition: color 0.3s ease; }
+
+.subtitle {
+    margin: -5px 0 0 0;
+    font-size: 1.1em;
+    color: var(--text-color);
+    transition: color 0.3s ease;
+}
+.search-container { display: flex; margin-bottom: 20px; }
+#search-input { 
+    flex-grow: 1;
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    background-color: var(--input-bg);
+    color: var(--input-text);
+    border-color: var(--input-border);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+#search-button {
+    padding: 10px 20px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s ease;
+}
+#search-button:hover { background-color: var(--primary-color-darker); }
+.card-container { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px; 
+    perspective: 1000px; /* Adiciona perspectiva para o efeito 3D dos cards */
+}
+.card { 
+    background-color: var(--card-bg); border: 1px solid var(--card-border); border-radius: 8px; padding: 16px; box-shadow: var(--card-shadow); 
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.3s ease, border-color 0.3s ease;
+    animation: fadeIn 0.5s ease-out forwards;
+    transform-style: preserve-3d; /* Necessário para o efeito de flip */
+}
+.card:hover { 
+    transform: rotateY(10deg) scale(1.05); /* Efeito de flip 3D e zoom */
+    box-shadow: 0 12px 24px rgba(0,0,0,0.25); 
+}
+.card-logo {
+    max-height: 45px;
+    width: auto;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    object-fit: contain;
+}
+.card h2 { margin-top: 0; color: var(--card-title-color); transition: color 0.3s ease; }
+.card p { margin-bottom: 10px; }
+.card a { color: var(--primary-color); text-decoration: none; font-weight: bold; transition: color 0.3s ease; }
+.card a:hover { text-decoration: underline; }
+#error-message { color: #d93025; font-weight: bold; }
+#category-filters { margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 10px; }
+.category-button { padding: 8px 15px; border: 1px solid var(--button-border); background-color: var(--button-bg); color: var(--button-text); border-radius: 20px; cursor: pointer; transition: all 0.3s ease; }
+.category-button:hover { 
+    background-color: var(--button-hover-bg); 
+    transform: translateY(-3px); /* Efeito de elevação */
+}
+.category-button.active { background-color: var(--button-active-bg); color: var(--button-active-text); border-color: var(--button-active-bg); }
+
+.dark-mode-toggle {
+    background: none;
+    border: 1px solid var(--toggle-border);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --header-color: #e0e0e0;
+    --primary-color: #03dac6;
+
+    --card-bg: #1e1e1e;
+    --card-border: #333;
+    --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    --card-title-color: #bb86fc;
+
+    --input-bg: #333;
+    --input-border: #555;
+    --input-text: #e0e0e0;
+
+    --button-bg: #333;
+    --button-text: #e0e0e0;
+    --button-border: #555;
+    --button-hover-bg: #444;
+
+    --button-active-bg: var(--card-title-color);
+    --button-active-text: #121212;
+
+    --toggle-border: #555;
+    --toggle-bg: #333;
+
+    --gradient-start: var(--card-title-color);
+    --gradient-end: var(--primary-color);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.main-footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--card-border);
+    color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    .main-header {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    .logo-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .dark-mode-toggle {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+}

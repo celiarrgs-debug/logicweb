@@ -1,0 +1,233 @@
+[
+  {
+    "nome": "Angular",
+    "descricao": "Angular é uma plataforma completa e framework de código aberto para a construção de aplicativos front-end escaláveis. Mantido pelo Google, ele é baseado em TypeScript e foca em arquitetura de componentes, injeção de dependência e ferramentas de linha de comando robustas. É frequentemente escolhido para aplicações empresariais grandes e complexas.",
+    "categoria": "Frameworks/Bibliotecas",
+    "link": "https://angular.io/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png"
+  },
+  {
+    "nome": "AWS Lambda",
+    "descricao": "AWS Lambda é um serviço de computação serverless da Amazon Web Services (AWS). Ele permite que você execute código sem provisionar ou gerenciar servidores, cobrando apenas pelo tempo de computação consumido. É frequentemente utilizado para criar back-ends de aplicações escaláveis orientadas a eventos e funções.",
+    "categoria": "Cloud/Serverless",
+    "link": "https://aws.amazon.com/lambda/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/AWS_Lambda_logo.svg/450px-AWS_Lambda_logo.svg.png"
+  },
+  {
+    "nome": "C#",
+    "descricao": "C# (C Sharp) é uma linguagem de programação multiparadigma desenvolvida pela Microsoft, rodando principalmente na plataforma .NET. É amplamente utilizada para desenvolvimento web (ASP.NET), aplicações de desktop e jogos (Unity). A linguagem combina produtividade com o poder das linguagens C-style.",
+    "categoria": "Linguagens de Programação",
+    "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png"
+  },
+  {
+    "nome": "C++",
+    "descricao": "C++ é uma linguagem de programação de propósito geral, compilada e multi-paradigma, que é uma extensão da linguagem C, muito usada em jogos e softwares de sistema.",
+    "categoria": "Linguagens de Programação",
+    "link": "https://isocpp.org/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+  },
+  {
+    "nome": "CSS",
+    "descricao": "CSS (Cascading Style Sheets) é uma linguagem de folha de estilo usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML.",
+    "categoria": "Linguagens de Estilo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+  },
+  {
+    "nome": "Deno",
+    "descricao": "Deno é um ambiente de execução seguro para JavaScript e TypeScript, construído em Rust. Ele visa fornecer uma alternativa moderna ao Node.js, oferecendo segurança por padrão e suporte nativo a módulos ES. Deno também inclui ferramentas integradas, como formatador e linter, simplificando o fluxo de trabalho do desenvolvedor.",
+    "categoria": "Runtimes/Plataformas",
+    "link": "https://deno.com/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Deno.svg/1200px-Deno.svg.png"
+  },
+  {
+    "nome": "Docker",
+    "descricao": "Docker é uma plataforma que usa virtualização em nível de sistema operacional para empacotar softwares em contêineres. Contêineres são unidades leves e portáteis que garantem que o software funcione de maneira uniforme em qualquer ambiente. Ele simplifica o processo de desenvolvimento, implantação e escalabilidade de aplicações.",
+    "categoria": "Ferramentas/DevOps",
+    "link": "https://www.docker.com/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28logo%29.svg/1200px-Docker_%28logo%29.svg.png"
+  },
+  {
+    "nome": "FastAPI",
+    "descricao": "FastAPI é um framework web moderno e de alta performance para construir APIs com Python, baseado em tipagem padrão. Ele utiliza recursos assíncronos e pydantic para validação de dados, gerando automaticamente documentação interativa (Swagger UI e ReDoc). É uma excelente escolha para APIs robustas e rápidas.",
+    "categoria": "Frameworks Back-end",
+    "link": "https://fastapi.tiangolo.com/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/FastAPI_logo.png"
+  },
+  {
+    "nome": "Git",
+    "descricao": "Git é o sistema de controle de versão distribuído mais amplamente utilizado no mundo para rastrear mudanças em códigos-fonte. Ele permite que múltiplos desenvolvedores trabalhem no mesmo projeto sem conflitos, mantendo um histórico completo de todas as alterações. Plataformas como GitHub e GitLab são construídas sobre o Git.",
+    "categoria": "Ferramentas/DevOps",
+    "link": "https://git-scm.com/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png"
+  },
+  {
+    "nome": "Go",
+    "descricao": "Go (ou Golang) é uma linguagem de programação compilada e concorrente, criada pelo Google, inspirada na tradição de C, mas com segurança de memória e coleta de lixo.",
+    "categoria": "Linguagens de Programação",
+    "link": "https://go.dev/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png"
+  },
+  {
+    "nome": "GraphQL",
+    "descricao": "GraphQL é uma linguagem de consulta de dados para APIs desenvolvida pelo Facebook. Ele permite que os clientes solicitem exatamente os dados de que precisam, evitando o excesso de fetching de dados que é comum no REST. O GraphQL melhora a eficiência e o desempenho em ambientes de rede lenta.",
+    "categoria": "Protocolos/APIs",
+    "link": "https://graphql.org/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_logo.svg/1200px-GraphQL_logo.svg.png"
+  },
+  {
+    "nome": "gRPC",
+    "descricao": "gRPC é um framework moderno de código aberto e alto desempenho para Remote Procedure Calls (RPC). Ele utiliza HTTP/2 para transporte, Protocol Buffers como linguagem de definição de interface e suporta autenticação, balanceamento de carga e rastreamento. É ideal para a comunicação eficiente entre microsserviços.",
+    "categoria": "Protocolos/APIs",
+    "link": "https://grpc.io/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/GRPC_Logo.svg/1200px-GRPC_Logo.svg.png"
+  },
+  {
+    "nome": "HTML",
+    "descricao": "HTML (HyperText Markup Language) é a linguagem de marcação padrão para criar páginas da web e aplicações web.",
+    "categoria": "Linguagens de Marcação",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+  },
+  {
+    "nome": "Java",
+    "descricao": "Java é uma linguagem de programação orientada a objetos, de propósito geral, concorrente e baseada em classes, projetada para ter o mínimo de dependências de implementação.",
+    "categoria": "Linguagens de Programação",
+    "link": "https://www.java.com/pt-BR/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png"
+  },
+  {
+    "nome": "JavaScript",
+    "descricao": "JavaScript é uma linguagem de programação interpretada de alto nível, caracterizada também como dinâmica, fracamente tipada e multiparadigma.",
+    "categoria": "Linguagens de Programação",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+  },
+  {
+    "nome": "Jenkins",
+    "descricao": "Jenkins é um servidor de automação open-source que oferece suporte a Continuous Integration (CI) e Continuous Delivery (CD). Ele permite que desenvolvedores automatizem a construção, teste e implantação de software. É altamente configurável através de plugins, suportando praticamente qualquer tecnologia.",
+    "categoria": "Ferramentas/DevOps",
+    "link": "https://www.jenkins.io/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png"
+  },
+  {
+    "nome": "Kotlin",
+    "descricao": "Kotlin é uma linguagem de programação multiparadigma, estaticamente tipada, que roda na Máquina Virtual Java (JVM). É totalmente interoperável com Java e é a linguagem preferida para o desenvolvimento de aplicativos Android. Kotlin oferece sintaxe concisa e recursos de segurança contra nulos para evitar erros comuns.",
+    "categoria": "Linguagens de Programação",
+    "link": "https://kotlinlang.org/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin_logo.svg/1200px-Kotlin_logo.svg.png"
+  },
+  {
+    "nome": "Kubernetes",
+    "descricao": "Kubernetes (K8s) é um sistema de orquestração de contêineres open-source, originalmente projetado pelo Google. Ele automatiza a implantação, escalabilidade e gerenciamento de aplicações contentorizadas. K8s é a ferramenta padrão da indústria para gerenciar grandes clusters de microsserviços.",
+    "categoria": "Ferramentas/DevOps",
+    "link": "https://kubernetes.io/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Kubernetes-icon.svg/1200px-Kubernetes-icon.svg.png"
+  },
+  {
+    "nome": "MongoDB",
+    "descricao": "MongoDB é um banco de dados NoSQL orientado a documentos, projetado para escalabilidade e flexibilidade. Ele armazena dados em documentos BSON (semelhantes a JSON), o que facilita a integração de dados em aplicações. É ideal para dados não estruturados ou semiestruturados e permite iteração rápida no desenvolvimento.",
+    "categoria": "Bancos de Dados",
+    "link": "https://www.mongodb.com/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/1200px-MongoDB_Logo.svg.png"
+  },
+  {
+    "nome": "Node.js",
+    "descricao": "Node.js é um ambiente de execução de código aberto e multiplataforma que permite executar JavaScript do lado do servidor. Ele utiliza o motor V8 do Chrome para alta performance e emprega um modelo I/O não bloqueante e orientado a eventos. Isso o torna ideal para a construção de aplicações web em tempo real e APIs escaláveis.",
+    "categoria": "Runtimes/Plataformas",
+    "link": "https://nodejs.org/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
+  },
+  {
+    "nome": "PostgreSQL",
+    "descricao": "PostgreSQL é um poderoso sistema de gerenciamento de banco de dados objeto-relacional de código aberto (ORDBMS). Ele é conhecido por sua robustez, extensibilidade e estrita conformidade com os padrões SQL. É frequentemente escolhido para aplicações que exigem integridade de dados complexa e grandes volumes de dados.",
+    "categoria": "Bancos de Dados",
+    "link": "https://www.postgresql.org/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_logo.svg/1200px-Postgresql_logo.svg.png"
+  },
+  {
+    "nome": "Python",
+    "descricao": "Python é uma linguagem de programação de alto nível, interpretada, de propósito geral, com uma sintaxe clara e legível.",
+    "categoria": "Linguagens de Programação",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Glossary/Python",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+  },
+  {
+    "nome": "React",
+    "descricao": "React é uma biblioteca JavaScript de código aberto para criar interfaces de usuário (UI). É mantida pelo Facebook e por uma comunidade de desenvolvedores individuais e empresas.",
+    "categoria": "Frameworks/Bibliotecas",
+    "link": "https://react.dev/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+  },
+  {
+    "nome": "Redis",
+    "descricao": "Redis é um armazenamento de estrutura de dados em memória de código aberto, usado como cache, banco de dados e message broker. Ele suporta estruturas como strings, hashes, listas e conjuntos, garantindo velocidades de acesso extremamente rápidas. É crucial para melhorar a performance de aplicações web através do caching de dados.",
+    "categoria": "Bancos de Dados",
+    "link": "https://redis.io/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Redis_logo.svg/1200px-Redis_logo.svg.png"
+  },
+  {
+    "nome": "Rust",
+    "descricao": "Rust é uma linguagem de programação de sistemas focada em segurança, concorrência e desempenho. Ela garante segurança de memória sem a necessidade de um coletor de lixo, tornando-a ideal para sistemas operacionais e servidores de alto desempenho. Sua sintaxe moderna e o robusto sistema de tipos tornam o código mais confiável.",
+    "categoria": "Linguagens de Programação",
+    "link": "https://www.rust-lang.org/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1200px-Rust_programming_language_black_logo.svg.png"
+  },
+  {
+    "nome": "Sass",
+    "descricao": "Sass (Syntactically Awesome Style Sheets) é um pré-processador de folha de estilos que estende a funcionalidade do CSS. Ele adiciona recursos como variáveis, aninhamento, mixins e funções para tornar a escrita de CSS mais eficiente e organizada. O código Sass é compilado em CSS puro antes de ser interpretado pelo navegador.",
+    "categoria": "Linguagens de Estilo",
+    "link": "https://sass-lang.com/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png"
+  },
+  {
+    "nome": "Solidity",
+    "descricao": "Solidity é uma linguagem de programação orientada a objetos de alto nível usada para escrever contratos inteligentes. É a principal linguagem de programação para implementar lógica de negócios em várias plataformas blockchain, notavelmente a Ethereum Virtual Machine (EVM). O código Solidity define as regras e o comportamento dos contratos na rede descentralizada.",
+    "categoria": "Blockchain/Web3",
+    "link": "https://soliditylang.org/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Solidity_logo.svg/1200px-Solidity_logo.svg.png"
+  },
+  {
+    "nome": "Spring Boot",
+    "descricao": "Spring Boot é uma extensão do framework Spring que simplifica a criação de aplicações Spring independentes e prontas para produção. Ele oferece autoconfiguração e opiniões 'sensatas' sobre o uso do Spring, minimizando a necessidade de configuração boilerplate. É o padrão da indústria para aplicações back-end corporativas em Java.",
+    "categoria": "Frameworks Back-end",
+    "link": "https://spring.io/projects/spring-boot",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Spring_Framework_Logo.svg/1200px-Spring_Framework_Logo.svg.png"
+  },
+  {
+    "nome": "Svelte",
+    "descricao": "Svelte é um compilador de interface de usuário que converte componentes declarativos em código JavaScript imperativo altamente eficiente. Diferentemente de frameworks tradicionais que rodam no navegador, o Svelte realiza a maior parte do trabalho durante a etapa de compilação. Isso resulta em aplicativos muito rápidos com um código de tempo de execução mínimo.",
+    "categoria": "Frameworks/Bibliotecas",
+    "link": "https://svelte.dev/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png"
+  },
+  {
+    "nome": "Tailwind CSS",
+    "descricao": "Tailwind CSS é um framework CSS 'utility-first' para a construção rápida de interfaces de usuário. Em vez de classes pré-construídas complexas, ele fornece classes de utilidade de baixo nível para estilos específicos, como padding, margem e cor. Isso permite total personalização do design sem sair do código HTML.",
+    "categoria": "Ferramentas Front-end",
+    "link": "https://tailwindcss.com/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
+  },
+  {
+    "nome": "Terraform",
+    "descricao": "Terraform é uma ferramenta de Infraestrutura como Código (IaC) desenvolvida pela HashiCorp, permitindo o provisionamento de infraestrutura de forma segura e eficiente. Ele utiliza uma linguagem declarativa HCL para descrever recursos de nuvem e on-premise. É amplamente usado para gerenciar e versionar a infraestrutura em múltiplos provedores de nuvem (AWS, Azure, GCP).",
+    "categoria": "Ferramentas/DevOps",
+    "link": "https://www.terraform.io/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Terraform-logo.svg/1200px-Terraform-logo.svg.png"
+  },
+  {
+    "nome": "TypeScript",
+    "descricao": "TypeScript é um superset tipado de JavaScript que compila para JavaScript puro. Ele adiciona tipagem estática opcional, interfaces e classes, melhorando a manutenibilidade e escalabilidade de grandes bases de código. É amplamente utilizado no desenvolvimento front-end e back-end.",
+    "categoria": "Linguagens de Programação",
+    "link": "https://www.typescriptlang.org/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"
+  },
+  {
+    "nome": "Vue.js",
+    "descricao": "Vue.js é um framework progressivo para a construção de interfaces de usuário. Ele foi projetado para ser adaptável, o que significa que pode ser usado como uma biblioteca leve ou como um framework completo. Sua curva de aprendizado suave e a reatividade eficiente o tornam popular para projetos front-end.",
+    "categoria": "Frameworks/Bibliotecas",
+    "link": "https://vuejs.org/",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png"
+  }
+]
